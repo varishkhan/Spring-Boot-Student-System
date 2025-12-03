@@ -41,8 +41,12 @@ Follow these steps to run the project locally.
 ### 3. Configure Application
 Open `src/main/resources/application.properties` and update your MySQL credentials:
 
-```properties
+```properties```
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
 spring.datasource.username=root
 spring.datasource.password=  <-- PUT YOUR PASSWORD HERE (Leave empty for XAMPP default)
+
 spring.jpa.hibernate.ddl-auto=update
+
+### 4.📸 Project Demo
+![App Screenshot](api-test.png)
